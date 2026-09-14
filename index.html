@@ -990,6 +990,19 @@ button:active{
 
 <script>
 
+   /* ===============================================
+     AUDIO
+================================================= -->
+
+<audio
+    id="audio"
+    preload="auto">
+</audio>
+
+
+<script>
+ 
+
 /* =================================================
    PAGE SYSTEM
 ================================================= */
@@ -1078,15 +1091,7 @@ musicButton.addEventListener(
     "click",
     function(){
 
-        if(audio.paused){
-
-            audio.play();
-
-        }else{
-
-            audio.pause();
-
-        }
+        audio.play();
 
     }
 );
